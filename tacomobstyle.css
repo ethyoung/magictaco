@@ -1,0 +1,183 @@
+@media only screen and (max-device-width: 640px) 
+{
+	#hidemob, .hidemob {
+		display:none;
+	}
+	#hidefull, .hidefull {
+		display: inline;
+	}
+	body {
+		/* width: 1000px; */
+		width:100%;
+	}
+	div.box {
+		position: relative;
+		width: 100%;
+	}
+	#boxmain {
+		background-image: url("images/logomob.jpg") !important;
+		background-size: 100%,auto;
+		height: 247px;
+		border: none;
+	}
+	#boxemp {
+		background-image: url("images/logoempmob.jpg") !important;
+		/* background-size: 1000px 316px; */
+		background-size:100% 100%;
+		height: 316px;
+	}
+	div.construct {
+
+	}
+	div.sclaimer {
+		display:none;
+	}
+	div.tabbed_area {
+		height:auto;
+	}
+	div.tacohead, div.tacotext, div.slide {
+		font-size:40px !important;
+		width:95%;
+		display:block;
+		margin: 20px auto 10px auto;
+		padding: 10px 0px 10px 0px;
+	}
+	div.tacotext {
+		margin: 0px auto 10px auto;
+	}
+	div.tacohead {
+		font-weight:bold;
+		text-align: center;
+		margin: 20px auto 10px auto;
+	}
+	
+	div.allSorry {
+		font-size:40px !important;
+		width:95%;
+		display:block;
+		margin: 20px auto 50px auto;
+		padding: 10px 0px 20px 0px;
+	}	
+	div.sorryNav, table.complaints {
+		font-size:40px !important;
+		width:100%;
+		display:block;
+		margin: 20px auto 50px auto;
+		padding: 10px 0px 20px 0px;
+	}
+	#sorrywhat {
+		width:60%
+	}
+	#sorrywho {
+		display:none;
+	}
+	#sorryhow {
+		width:30%
+	}
+	
+	.slideholder {
+		width:95% !important;
+		height:500px;
+	}
+	
+	.slides {
+		position:relative;
+	}
+	.textSlides {
+		margin: 0px auto 0px auto;
+		position:relative;
+		width:90%;
+		left:5%;
+		height: 200px;
+		display: block;
+	}
+
+	.slider {
+		position: absolute;
+		transition: opacity .9s ease-in;
+		width:100%;
+		box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.5), 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+		border-radius: 30px;
+	}
+	.textSlide {
+		position: absolute;
+		transition: opacity .9s ease-in;
+		width: 90%;
+		text-align:center;
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:45px;
+	}
+	.slider + .slider, .textSlide + .textSlide {
+		opacity: 0;
+	}
+	
+	
+	img.cont {
+		width:100% !important;
+	}
+		
+	div.songs {
+		float: none;
+		padding: 0px 10px 10px 10px;
+		margin: 20px auto 0px auto !important;
+		width: 95%;
+		height: auto;
+		letter-spacing: -1px; 
+		background-color: #d2c2b0;
+		outline: 1px solid #917456;
+	}
+	div.audiotext {
+		font-size: 50px;
+		width: 95%;
+		margin: 10px 10px 10px 10px;
+	}
+	span.audiotitle {
+		width:90%;
+		font-weight:bold;
+	}
+	span.audioartist {
+		font-style:italic;
+	}
+	audio {
+		width: 95%;
+		height: 150px;
+		margin: 0px auto 20px auto;
+		padding: 0px 25px 0px 10px;
+	}
+	#empltabbed {
+		width: 100%;
+	}
+/* MENU/MEDIA ELEMENT OVERRIDES */
+	#content_1 {
+		margin: 0px auto 0px auto;
+		height: 600px;
+	}
+
+	ul.tabs {
+		font-size: 200% !important;
+		width:100% !important;
+		z-index: 0;
+	}
+	ul.tabs li a {
+		display:block;
+		padding:8px 14px 16px 14px;
+		margin:0px, 30px, 30px, 30px !important;
+		font-size:30px;
+	}
+
+	div.menu {
+		float:none;
+		width: auto;
+		height: 100% !important; 
+		line-height: 250%;
+		margin: 0 0 0 0;
+		border:0px;
+		letter-spacing:4px;
+		font-size: 425% !important; 
+	}
+
+	div.browser {
+		display:none;
+		width:100% !important;
+	}
+}
